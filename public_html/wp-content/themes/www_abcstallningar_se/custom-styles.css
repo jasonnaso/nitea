@@ -1,0 +1,167 @@
+
+body{
+
+	background-image: url();
+}
+.hero{
+
+	position: relative;
+}
+
+.hero-btns{
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 50px;	
+}
+
+.hero-title p{
+
+	position: absolute;
+	left: -422.1875px;
+	text-align: center;
+	margin-left: 50%;
+	margin-top:0.75em;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Questrial, sans-serif;
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.hero-title p{
+
+	font-size: 30px;
+	left: -316.6405px;
+	text-align: center;
+	 
+	
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.hero-title p{
+
+	font-size: 18px;
+	left: -211.094px;
+	text-align: center;
+	margin-top:0.35em;
+	  
+	
+	}
+}
+
+
+.video-btn-image{
+
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 4em;
+}
+
+.video-title{
+	
+	margin-top: 10%;
+	margin-bottom: 4em;
+	text-align: center;
+	font-family: Questrial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+
+}
+
+.links:hover{
+
+	background-color: #f5f5f5;
+}
+.link-box a{
+
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+.links-title{
+	
+	margin: 1em 0 0.5em 0;
+	font-family: Questrial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.links-info{
+
+
+	font-family: Questrial, sans-serif;
+	font-size: 18px;
+	padding:  0 4em;
+
+}
+
+
+
+    .link-box {
+
+        display:table;
+        width:100%;
+    }
+
+    .links {
+
+        display:table-cell;
+        height:100%;
+        float:none;
+        text-align:center;
+    }
+
+
+
+    .link-box .links:not(:last-of-type){
+			border-right:1px #ccc solid;
+		}
+
+
+.reference-title{
+	
+	margin: 1em 0 0.5em 0;
+	font-family: Questrial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	
+
+}
+
+.parallax{
+
+	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
