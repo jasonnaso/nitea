@@ -1,4 +1,3 @@
-
 body{
 
 	background-image: url();
@@ -26,8 +25,6 @@ body{
 	font-size: 40px;
 	font-weight: bold;
 	font-family: Questrial, sans-serif;
-
-
 }
 
 
@@ -47,7 +44,7 @@ body{
 
 	.hero-title p{
 
-	font-size: 18px;
+	font-size: 20px;
 	left: -211.094px;
 	text-align: center;
 	margin-top:0.35em;
@@ -55,6 +52,21 @@ body{
 	
 	}
 }
+
+@media screen and (max-width: 480px) {
+
+	.hero-title p{
+
+	font-size: 12px;
+	left: -126.656px;
+	text-align: center;
+	margin-top:0.35em;
+	  
+	
+	}
+}
+
+
 
 
 .video-btn-image{
@@ -93,6 +105,7 @@ body{
 	font-family: Questrial, sans-serif;
 	font-weight: bold;
 	font-size: 26px;
+
 }
 
 .links-info{
@@ -100,31 +113,58 @@ body{
 
 	font-family: Questrial, sans-serif;
 	font-size: 18px;
-	padding:  0 4em;
+	padding:  0 3em;
+
+}
+
+.link-box {
+
+    display:table;
+    width:100%;
+}
+
+.links {
+
+    display:table-cell;
+    height:100%;
+    float:none;
+    text-align:center;
+}
+
+.link-box .links:not(:last-of-type){
+		
+		border-right:1px #ccc solid;
+	}
+
+@media screen and (max-width: 768px) {
+
+	
+	.links {
+
+		float:left;
+
+	}
+
+	.link-box .links:not(:last-of-type){
+			
+			border: none;
+		}
+
+	.links-title{
+
+		margin: 0;
+	}
+
+	.links-info{
+
+		padding: 2em;
+		text-align: center;
+	}
 
 }
 
 
 
-    .link-box {
-
-        display:table;
-        width:100%;
-    }
-
-    .links {
-
-        display:table-cell;
-        height:100%;
-        float:none;
-        text-align:center;
-    }
-
-
-
-    .link-box .links:not(:last-of-type){
-			border-right:1px #ccc solid;
-		}
 
 
 .reference-title{
@@ -138,14 +178,165 @@ body{
 
 }
 
-.parallax{
+@media screen and (max-width: 768px) {
 
-	background-attachment: fixed;
+	.reference-title{
+
+	  font-size: 20px;
+	
+	}
 }
 
 
+/*/////////Paralax 1  IT///////////*/
+
+.paralax-IT-image{
+	
+	width: 100%;
+	background-attachment: fixed;
+	background-size:cover;
+
+}
+
+.parallax-IT-system{
+
+	width:100%;
+	height: 400px;
+	max-height: 400px;
+	text-align:center;
+	background-color: white;
+	color:black;
+	
+}
+
+.paralax-IT-title{
+	
+	background-color: red;
+	background-color: rgba(211,77,72, 0.8);
+	font-size: 30px;
+	padding-top: 4.5em;
+	padding-bottom: 4.5em;
+	color: white;
+	text-align: center;
+
+}
+
+.fa{
+	
+	margin-top: 2em;
+	margin-bottom: .5em;
+	color: #d34d48;
+	color: rgba(211,77,72, 0.8);
+}
+
+.system-title{
+
+	text-align: center;
+	font-family: Questrial, sans-serif;
+	font-size: 18px;
 
 
+}
+
+@media screen and (max-width: 768px) {
+	
+	.fa{
+	
+		margin-top: .8em;
+		margin-bottom: .2em;
+		color: #d34d48;
+		color: rgba(211,77,72, 0.8);
+	}
+
+	.system-title{
+
+		font-size: 14px;
+	}
+
+	.paralax-title{
+		
+		font-size: 20px;
+		padding-top: 4em;
+		padding-bottom: 4em;
+		
+
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+	.fa{
+	
+		margin-top: .8em;
+		margin-bottom: .2em;
+		color: #d34d48;
+		color: rgba(211,77,72, 0.8);
+	}
+
+	.system-title{
+
+		font-size: 14px;
+	}
+
+	.paralax-title{
+		
+		font-size: 20px;
+		padding-top: 4em;
+		padding-bottom: 4em;
+		
+
+	}
+	
+}
+
+.project-box{
+
+	background-color: #fafafa;
+    padding: 5em 0;
+}
+
+
+.announcement-box{
+	
+	margin: 3em 0;
+	font-family: Questrial, sans-serif;
+	font-size: 26px;
+	text-align: center;
+}
+
+/*/////////Paralax 1  IT///////////*/
+
+.paralax-building-image{
+	
+	width: 100%;
+	background-attachment: fixed;
+	background-size:cover;
+
+}
+
+.paralax-building-form{
+
+	width:100%;
+	height: 400px;
+	max-height: 400px;
+	text-align:center;
+	background-color: white;
+	color:black;
+	
+}
+
+.paralax-building-title{
+	
+	/*background-color: red;
+	background-color: rgba(211,77,72, 0.7);*/
+	font-size: 30px;
+	padding-top: 4.5em;
+	padding-bottom: 4.5em;
+	color: white;
+	text-align: center;
+
+}
 
 
 
